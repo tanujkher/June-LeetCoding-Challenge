@@ -9,11 +9,11 @@ public class random_pick_with_weight{
     }
 }
 
-class Soln {
+class Ans {
     List<Integer> wsum;
     int sum;
     Random r;
-    public Soln(int[] w) {
+    public Ans(int[] w) {
         r = new Random();
         wsum = new ArrayList<>();
         sum = 0;
